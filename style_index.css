@@ -66,10 +66,26 @@
 
 .about-us{
    display: flex;
-   padding: 10px;
+   padding: 96px 0px;
    flex-direction: column;
    gap: 24px;
    align-items: center;
+   font-family: "inter",sans-serif;
+}
+
+.about-us span {
+   color: #8E2424;
+   font-size: 16px;
+   line-height: 24px;
+
+}
+
+.about-us h1 {
+   font-family: "inter", sans-serif;
+   color: rgb(10, 18, 28);
+   font-size: 48px;
+   line-height: 60px;
+
 }
 
 .about-us p {
@@ -77,5 +93,7 @@
    flex-wrap: wrap;
    width: 791px;
    font-size: 20px;
-   justify-self: center;
+   text-align: center;
+   line-height: 30px;
+   color: #667085;
 }
