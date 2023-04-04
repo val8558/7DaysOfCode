@@ -69,7 +69,7 @@
    flex-direction: column;
    gap: 24px;
    align-items: center;
-   font-family: "inter",sans-serif;
+   font-family: "Inter",sans-serif;
 }
 
 .about-us span {
@@ -80,7 +80,7 @@
 }
 
 .about-us h1 {
-   font-family: "inter", sans-serif;
+   font-family: "Inter", sans-serif;
    color: rgb(10, 18, 28);
    font-size: 48px;
    line-height: 60px;
@@ -131,4 +131,42 @@
    line-height: 24px;
    margin: 0;
    padding: 0;
+}
+
+.talents {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 196px 0;
+   gap: 20px;
+}
+
+.talents span {
+   font-family: "Inter", sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   color: var(--main-color);
+   background-color: rgba(142, 36, 36, 0.05);
+   border-radius: 16px;
+   padding: 4px 12px 4px 12px;
+   font-weight: 500;
+}
+
+.talents h2 {
+   font-family: "Inter", sans-serif;
+   font-size: 36px;
+   line-height: 44px;
+   font-weight: 600;
+   color: #101828;
+}
+
+.talents p {
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   line-height: 30px;
+   color: #667085;
+}
+
+.talents img {
+   padding-top: 64px;
 }
