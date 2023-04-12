@@ -11,7 +11,7 @@
    --main-color: #8E2424;
 }
 
-.main-menu {
+.mainMenu {
    font-family: 'Inter', sans-serif;
    padding: 28px;
    color: #667085;
@@ -63,7 +63,7 @@
    padding: 10px 18px;
 }
 
-.about-us{
+.aboutUs {
    display: flex;
    padding: 96px 0px;
    flex-direction: column;
@@ -72,14 +72,14 @@
    font-family: "Inter",sans-serif;
 }
 
-.about-us span {
+.aboutUs span {
    color: #8E2424;
    font-size: 16px;
    line-height: 24px;
 
 }
 
-.about-us h1 {
+.aboutUs h1 {
    font-family: "Inter", sans-serif;
    color: rgb(10, 18, 28);
    font-size: 48px;
@@ -87,7 +87,7 @@
 
 }
 
-.about-us p {
+.aboutUs p {
    display: flex;
    flex-wrap: wrap;
    width: 791px;
@@ -97,8 +97,6 @@
    color: #667085;
 }
 
-
-
 .metrics  {
    display: flex;
    align-items: center;
@@ -107,8 +105,6 @@
    margin-left: 122px;
    margin-right: 122px;
 }
-
-
 
 .metrics h1 {
    color: #8E2424;
@@ -169,4 +165,50 @@
 
 .talents img {
    padding-top: 64px;
+}
+
+.jobOpens {
+   margin-left: 336px;
+   margin-right: 336px;
+}
+
+.jobOpens span {
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 32px;
+   color: #101828;
+
+}
+
+.jobName {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   border: solid 1px #EAECF0;
+   border-radius: 16px;
+   padding: 24px 24px 28px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 28px;
+   color: #101828;
+   margin-top: 32px;
+}
+
+
+.jobType {
+   display: flex;
+   flex-direction: row;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   gap: 24px;
+   color: #667085;
+
 }
