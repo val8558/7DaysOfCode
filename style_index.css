@@ -3,7 +3,7 @@
   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 :root {
@@ -165,14 +165,13 @@
 
 .talents img {
    padding-top: 64px;
+   width: 80%;
 }
 
-.jobOpens {
+
+.jobSection {
    margin-left: 336px;
    margin-right: 336px;
-}
-
-.jobOpens span {
    font-family: 'Inter', sans-serif;
    font-style: normal;
    font-weight: 500;
@@ -180,10 +179,13 @@
    line-height: 30px;
    margin-bottom: 32px;
    color: #101828;
+   margin-top: 64px;
 
 }
 
 .jobName {
+   margin-left: 336px;
+   margin-right: 336px;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -210,5 +212,64 @@
    line-height: 24px;
    gap: 24px;
    color: #667085;
+   margin-top: 32px;
+
 
 }
+
+.preFooter { 
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 96px 112px;
+   background-color: rgba(196, 25, 25, 0.03);
+   gap: 32px;
+   padding: 64px;
+   
+}
+
+.preFooter p { 
+   color: #8E2424;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+.preFooter h2 {
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   color: #101828;
+   text-align: center;
+   margin: 0px 64px;
+}
+
+.colabInfos span {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+.colabInfos span:first-of-type {
+   color: #101828;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+}
+
+.colabInfos span:last-child {
+   color: #667085;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: center;
+}
+
