@@ -1,6 +1,7 @@
-*{margin: 0;
-  box-sizing: border-box;
-  
+* {
+   margin: 0;
+   box-sizing: border-box;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -22,8 +23,9 @@
    display: flex;
    align-items: center;
    justify-content: space-around;
-   
+
 }
+
 .logo {
    display: flex;
    align-items: center;
@@ -42,7 +44,7 @@
 
 .buttons {
    display: flex;
-   gap: 20px;    
+   gap: 20px;
    font-family: 'Inter', sans-serif;
    align-self: flex-end;
 }
@@ -54,7 +56,7 @@
    font-size: 16px;
 }
 
-#signUp{
+#signUp {
    background-color: #8E2424;
    border-radius: 8px;
    box-shadow: 0px 1px 2px;
@@ -69,7 +71,7 @@
    flex-direction: column;
    gap: 24px;
    align-items: center;
-   font-family: "Inter",sans-serif;
+   font-family: "Inter", sans-serif;
 }
 
 .aboutUs span {
@@ -97,7 +99,7 @@
    color: #667085;
 }
 
-.metrics  {
+.metrics {
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -217,7 +219,7 @@
 
 }
 
-.preFooter { 
+.preFooter {
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -225,10 +227,10 @@
    background-color: rgba(196, 25, 25, 0.03);
    gap: 32px;
    padding: 64px;
-   
+
 }
 
-.preFooter p { 
+.preFooter p {
    color: #8E2424;
    font-family: 'Inter', sans-serif;
    font-style: normal;
@@ -253,6 +255,7 @@
    flex-direction: column;
    gap: 4px;
 }
+
 .colabInfos span:first-of-type {
    color: #101828;
    font-family: 'Inter', sans-serif;
@@ -279,7 +282,7 @@
    text-align: center;
    gap: 32px;
    background-color: #F9FAFB;
-   padding: 96px 0 ;
+   padding: 96px 0;
    align-items: center;
 }
 
@@ -289,7 +292,7 @@
    font-weight: 600;
    font-size: 36px;
    line-height: 44px;
-   color:#101828;
+   color: #101828;
 }
 
 .footer h3 {
@@ -312,7 +315,7 @@
    border-radius: 8px;
    padding: 12px 14px 12px 16px;
    width: 360px;
-   height: 48px; 
+   height: 48px;
 }
 
 .inputEmail button {
